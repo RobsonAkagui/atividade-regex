@@ -1,5 +1,5 @@
 Nome: /^[^\d]{1,100}$/
-Essa expressão regular permite apenas caracteres que não são dígitos (números), com no mínimo 1 e no máximo 100 caracteres.
+Essa expressão só permite caracteres, exceto números. Com 1 a 100 caracteres.
 
 ^: Indica o início da string.
 [^\d]: Representa uma classe de caracteres negada ([^]), que significa "qualquer caractere que não seja". Dentro dos colchetes, \d corresponde a qualquer caractere numérico. Portanto, [^\d] corresponde a qualquer caractere que não seja numérico.
@@ -29,5 +29,5 @@ Essa expressão regular verifica se o número de telefone está no formato padr�
 
 1-inserir o nome, só com máximo 100 caracteres
 2-email, colocar só xxxxxxx@gmail.com
-3-numero telefone xx xxxxx xxxxx
+3-numero telefone +55(DD)xxxxx xxxx
 4-aparece o alert caso falte algo no cadastro;
